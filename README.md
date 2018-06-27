@@ -2,11 +2,9 @@
 
 In which we explore different data stores for read/write models of event sourcing with CQRS
 
-# presentation
-- https://www.youtube.com/watch?v=bdBfbIiR95k
-- tbd kafka presentation
-
 # workshop
+
+- https://www.youtube.com/watch?v=bdBfbIiR95k first 30 minutes
 
 ```
 install docker
@@ -97,6 +95,10 @@ install docker
     --property print.key=true \
     --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
 ```
+
+# presentations
+- https://www.youtube.com/watch?v=bdBfbIiR95k
+- tbd kafka presentation
 
 # building app
 ```
