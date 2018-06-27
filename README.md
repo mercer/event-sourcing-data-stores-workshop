@@ -23,6 +23,10 @@ install docker
 ```
 
 ```
+→ docker-compose create
+```
+
+```
 → docker-compose scale kafka1=1 zoo1=1 app=0
 ```
 
