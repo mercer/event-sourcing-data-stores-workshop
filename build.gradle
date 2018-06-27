@@ -27,6 +27,8 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.apache.kafka:kafka-streams:1.0.1')
+	compile('org.springframework.kafka:spring-kafka')
 	runtime('com.h2database:h2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
