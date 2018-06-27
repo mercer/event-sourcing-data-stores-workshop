@@ -23,7 +23,11 @@ install docker
 ```
 
 ```
-→ docker-compose create
+→ docker-compose up -d
+```
+
+```
+→ docker-compose down
 ```
 
 ```
