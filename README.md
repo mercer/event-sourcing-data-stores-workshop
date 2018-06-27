@@ -73,7 +73,7 @@ ctrl-c
 ```
 
 
-- https://www.youtube.com/watch?v=Q5wOegcVa8E
+- https://www.youtube.com/watch?v=Q5wOegcVa8E 10 mins
 
 ```
 → docker-compose scale kafka1=1 zoo1=1 app=1
