@@ -19,7 +19,7 @@ install docker
 ```
 
 ```
-→ git clone ...
+→ git clone https://github.com/mercer/event-sourcing-data-stores-workshop.git
 ```
 
 ```
