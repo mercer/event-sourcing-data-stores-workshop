@@ -105,7 +105,7 @@ ctrl-c
 → docker-compose scale kafka1=1 zoo1=1 app=1
 ```
 
-- https://www.youtube.com/watch?v=p9wcx3aTjuo
+- https://www.youtube.com/watch?v=p9wcx3aTjuo 50 min
 
 # to build, run, publish app
 ```
