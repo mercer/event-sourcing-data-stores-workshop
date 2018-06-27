@@ -96,10 +96,7 @@ install docker
     --property print.key=true \
     --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
 ```
-
-# presentations
-- https://www.youtube.com/watch?v=bdBfbIiR95k
-- tbd kafka presentation
+- https://www.youtube.com/watch?v=p9wcx3aTjuo
 
 # building app
 ```
