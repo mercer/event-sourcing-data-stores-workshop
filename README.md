@@ -15,18 +15,7 @@ install docker
 /etc/hosts
 
 127.0.0.1     kafka1
-127.0.0.1     kafka2
-127.0.0.1     kafka3
 127.0.0.1     zoo1
-127.0.0.1     zoo2
-127.0.0.1     zoo3
-127.0.0.1     kafka-schema-registry
-127.0.0.1     kafka-schema-registry-ui
-127.0.0.1     kafka-rest-proxy
-127.0.0.1     kafka-topics-ui
-127.0.0.1     kafka-connect-ui
-127.0.0.1     zoonavigator-web
-127.0.0.1     zoonavigator-api
 ```
 
 ```
