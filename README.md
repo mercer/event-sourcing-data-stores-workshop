@@ -34,11 +34,15 @@ install docker
 ```
 
 ```
-→ docker-compose up -d
+→ docker-compose scale kafka1=1 zoo1=1 app=0
 ```
 
 ```
 → docker-compose logs -f
+```
+
+```
+ctrl-c
 ```
 
 ```
@@ -69,11 +73,7 @@ install docker
 ```
 
 ```
-→ docker-compose down
-```
-
-```
-→ docker-compose up -d
+→ docker-compose scale kafka1=1 zoo1=1 app=1
 ```
 
 ```
