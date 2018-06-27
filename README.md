@@ -35,7 +35,11 @@ install docker
 ```
 
 ```
-→ docker-compose up
+→ docker-compose up -d
+```
+
+```
+→ docker-compose logs
 ```
 
 ```
@@ -63,6 +67,14 @@ install docker
     --zookeeper zoo1:2181 \
     --partitions 1 \
     --replication-factor 1
+```
+
+```
+docker-compose down
+```
+
+```
+docker-compose up -d
 ```
 
 ```
@@ -101,3 +113,4 @@ install docker
 # todo
 - explain tutorial
 - material on kafka
+- material on kafka event sourcing
