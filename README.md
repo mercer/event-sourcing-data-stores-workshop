@@ -117,12 +117,11 @@ ctrl-c
 ```
 - https://www.youtube.com/watch?v=p9wcx3aTjuo
 
-# building app
+# to build, run, publish app
 ```
 ./gradlew docker dockerPush
 ```
 
-# run app outside docker
 ```
 ./gradlew bootRun
 ```
@@ -133,7 +132,3 @@ ctrl-c
 - https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/
 - https://github.com/simplesteph/kafka-stack-docker-compose
 
-# todo
-- explain tutorial
-- material on kafka
-- material on kafka event sourcing
