@@ -9,6 +9,10 @@ In which we explore different data stores for read/write models of event sourcin
 # workshop
 
 ```
+install docker
+```
+
+```
 /etc/hosts
 
 127.0.0.1     kafka1
