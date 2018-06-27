@@ -4,11 +4,12 @@ In which we explore different data stores for read/write models of event sourcin
 
 # workshop
 
-- https://www.youtube.com/watch?v=bdBfbIiR95k first 30 minutes
-
 ```
 install docker
 ```
+
+- https://www.youtube.com/watch?v=bdBfbIiR95k first 30 minutes
+
 
 ```
 /etc/hosts
