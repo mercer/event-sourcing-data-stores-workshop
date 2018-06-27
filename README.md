@@ -128,7 +128,6 @@ ctrl-c
 
 # references
 
-- https://github.com/confluentinc/examples/blob/kafka-0.10.0.0-cp-3.0.0/kafka-streams/src/main/java/io/confluent/examples/streams/WordCountLambdaExample.java
 - https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/
 - https://github.com/simplesteph/kafka-stack-docker-compose
 
