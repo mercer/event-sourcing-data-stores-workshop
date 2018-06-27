@@ -45,6 +45,10 @@ In which we explore different data stores for read/write models of event sourcin
 ```
 
 ```
+→ docker exec -it event-sourcing-data-stores-workshop_kafka1_1 kafka-console-producer --broker-list kafka1:9092 --topic TextLinesTopic
+```
+
+```
 → docker exec -it event-sourcing-data-stores-workshop_kafka1_1 kafka-console-consumer --topic WordsWithCountsTopic --from-beginning --zookeeper zoo1:2181 --property print.key=true --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
 ```
 
@@ -55,4 +59,6 @@ In which we explore different data stores for read/write models of event sourcin
 - https://github.com/simplesteph/kafka-stack-docker-compose
 
 # todo
-- dockerize app
+- dockerize and publish app
+- explain tutorial
+- material on kafka
