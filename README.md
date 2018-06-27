@@ -61,8 +61,25 @@ ctrl-c
     --replication-factor 1
 ```
 
-
 - https://www.youtube.com/watch?v=Q5wOegcVa8E 10 mins
+
+
+```
+→ docker exec -it event-sourcing-data-stores-workshop_kafka1_1 \
+    kafka-console-producer \
+    --broker-list kafka1:9092 \
+    --topic TextLinesTopic
+```
+
+```
+→ docker exec -it event-sourcing-data-stores-workshop_kafka1_1 \
+    kafka-console-consumer \
+    --topic WordsWithCountsTopic \
+    --from-beginning \
+    --zookeeper zoo1:2181 \
+    --property print.key=true \
+    --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
+```
 
 ```
 → docker-compose scale kafka1=1 zoo1=1 app=1
@@ -88,22 +105,6 @@ ctrl-c
 → docker-compose scale kafka1=1 zoo1=1 app=1
 ```
 
-```
-→ docker exec -it event-sourcing-data-stores-workshop_kafka1_1 \
-    kafka-console-producer \
-    --broker-list kafka1:9092 \
-    --topic TextLinesTopic
-```
-
-```
-→ docker exec -it event-sourcing-data-stores-workshop_kafka1_1 \
-    kafka-console-consumer \
-    --topic WordsWithCountsTopic \
-    --from-beginning \
-    --zookeeper zoo1:2181 \
-    --property print.key=true \
-    --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
-```
 - https://www.youtube.com/watch?v=p9wcx3aTjuo
 
 # to build, run, publish app
