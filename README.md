@@ -12,7 +12,7 @@ install docker
 
 
 ```
-/etc/hosts
+C:\Windows\System32\Drivers\etc\hosts
 
 127.0.0.1     kafka1
 127.0.0.1     zoo1
