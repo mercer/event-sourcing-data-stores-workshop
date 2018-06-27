@@ -1,6 +1,7 @@
 version: '2'
 
 services:
+
   zoo1:
     image: zookeeper:3.4.9
     hostname: zoo1
@@ -28,5 +29,10 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
     volumes:
       - ./zk-single-kafka-single/kafka1/data:/var/lib/kafka/data
+    depends_on:
+      - zoo1
+
+  app:
+    image: mercer/event-sourcing-workshop
     depends_on:
       - zoo1

@@ -85,6 +85,5 @@ In which we explore different data stores for read/write models of event sourcin
 - https://github.com/simplesteph/kafka-stack-docker-compose
 
 # todo
-- dockerize and publish app
 - explain tutorial
 - material on kafka
