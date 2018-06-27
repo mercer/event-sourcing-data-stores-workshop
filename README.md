@@ -78,6 +78,16 @@ In which we explore different data stores for read/write models of event sourcin
     --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
 ```
 
+# building app
+```
+./gradlew docker dockerPush
+```
+
+# run app outside docker
+```
+./gradlew bootRun
+```
+
 # references
 
 - https://github.com/confluentinc/examples/blob/kafka-0.10.0.0-cp-3.0.0/kafka-streams/src/main/java/io/confluent/examples/streams/WordCountLambdaExample.java
