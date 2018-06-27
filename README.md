@@ -72,6 +72,9 @@ ctrl-c
     --replication-factor 1
 ```
 
+
+- https://www.youtube.com/watch?v=Q5wOegcVa8E
+
 ```
 → docker-compose scale kafka1=1 zoo1=1 app=1
 ```
@@ -80,7 +83,21 @@ ctrl-c
 → docker-compose logs -f
 ```
 
-- https://www.youtube.com/watch?v=Q5wOegcVa8E
+```
+# produce some values ...
+```
+
+```
+→ docker-compose scale kafka1=1 zoo1=1 app=0
+```
+
+```
+# produce some values ...
+```
+
+```
+→ docker-compose scale kafka1=1 zoo1=1 app=1
+```
 
 ```
 → docker exec -it event-sourcing-data-stores-workshop_kafka1_1 \
