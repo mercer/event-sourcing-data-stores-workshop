@@ -80,6 +80,8 @@ install docker
 → docker-compose logs -f
 ```
 
+- https://www.youtube.com/watch?v=Q5wOegcVa8E
+
 ```
 → docker exec -it event-sourcing-data-stores-workshop_kafka1_1 \
     kafka-console-producer \
